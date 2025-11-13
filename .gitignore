@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data (don't commit large files)
+data/raw/**/*.nc
+data/processed/**/*.nc
+*.parquet
+*.hdf5
+
+# Keep structure
+!data/**/.gitkeep
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Jupyter
+*.ipynb
+
+# Results
+results/
